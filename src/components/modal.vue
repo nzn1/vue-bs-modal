@@ -272,6 +272,10 @@ export default defineComponent({
   font-size: 3rem;
 }
 
+.modal-footer > .btn:empty {
+  display: none;
+}
+
 .bs-dialog-animated {
   --animation-duration: 0.5s;
   -webkit-animation-duration: 0.5s;
